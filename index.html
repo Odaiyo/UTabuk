@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE HTML> 
+<html lang='ar' dir='rtl'> 
+ 
+<meta = charset=UTF-8>
+
+<body style = "text-align:center;"> 
+	
+	<h1 style = "color:green;"> 
+		 مبادرة اصنع خيرًا			 
+	</h1> 
+	
+	<p id = "GFG_UP" style = 
+		"font-size: 15px; font-weight: bold;"> 
+	</p> 
+	
+	<button id = "button" onclick = "GFG_Fun()"> 
+		اضغط هنا!				 
+	</button> 
+	
+	<p id = "GFG_DOWN" style = 
+		"font-size: 24px; font-weight: bold; color: green;"> 
+	</p> 
+	
+	<script> 
+		var up = document.getElementById('GFG_UP'); 
+		var down = document.getElementById('GFG_DOWN'); 
+	
+		
+  var arr = ["تبادل كتاب مع صديق", "وزع حلوى على مجموعة أطفال ", 
+  "ابتسم في وجه من ترى", "قابل صديق لم تره منذ مدة" ,
+		 "أطعم قطط الحي", "خطط لقضاء يوم مع أحد كبار السن في عائلتك",
+		 "قدم وجبة طعام لعامل نظافة" , "اترك قطع نقدية في آلة البيع لمن يحتاجها" ,					
+			 "اقرأ قصة مفيدة لأحد اخوتك الصغار" , "تطوع لأي منظمة تفضلها" ,		
+		 "تبرع بالدم" , "ازرع نبتة",
+ "ادفع حساب قهوة من بعدك بالصف", "اكتب رسالة امتنان لوالديك"];
+          
+		function GFG_Fun() { 
+			down.innerHTML = 
+				arr[Math.floor(Math.random() * arr.length)]; 
+		} 
+	</script> 
+</body> 
+
+</html> 
+
+
+
+
+
+
+
+
